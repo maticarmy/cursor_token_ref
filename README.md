@@ -48,7 +48,6 @@
 
 **参数**:
 - `token`: WorkosCursorSessionToken值（从Cursor网站Cookie获取）
-- `force_refresh`: true（可选，强制刷新）
 
 **返回格式**:
 ```json
@@ -56,8 +55,8 @@
   "code": 0,
   "msg": "获取成功",
   "data": {
-    "accessToken": "eyJhbGciOiJIUzI1NiIs...",  // 用于API调用的访问令牌
-    "refreshToken": "eyJhbGciOiJIUzI1NiIs...",  // 用于刷新访问令牌
+    "accessToken": "eyJhbGciOiJIUzI1NiIs...",  // 全新得长效用于API调用的访问令牌
+    "refreshToken": "eyJhbGciOiJIUzI1NiIs...",  // 全新得长效用于刷新访问令牌
     "user_id": "user_01JR58P7SG66YN9H4RX1A9EDR1",  // 用户ID
     "expire_time": "2025-06-10 14:26:52",  // 过期时间
     "days_left": 60  // 剩余有效天数
@@ -192,6 +191,7 @@ else:
 
 如需更多帮助或了解更多服务，请联系我们：
 
+- 嫌麻烦可使用成品官网：[cursorpro.com.cn](https://cursorpro.com.cn) -  听泉助手-一键切换全新账号
 - 联系人：[您的联系方式]
 - 微信/QQ：[您的社交媒体]
 - 邮箱：[您的邮箱]
